@@ -1,5 +1,5 @@
 
-Decision Tree Algorithm
+# Decision Tree Algorithm
 
 The decision tree algorithm is a popular machine learning algorithm that is used for classification and regression tasks. It is a type of supervised learning algorithm that works by recursively partitioning the input space into regions based on the features of the input data. The resulting tree is a flowchart-like structure where each internal node represents a decision based on the value of a specific feature, and each leaf node represents a class label or a regression value.
 
