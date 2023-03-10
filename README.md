@@ -23,18 +23,18 @@ Here is an example usage:
 
 from decision_tree import DecisionTree
 
-# create an instance of the DecisionTree class
+#create an instance of the DecisionTree class
 tree = DecisionTree()
 
-# load data from a CSV file
+#load data from a CSV file
 data = load_data("data.csv")
 
-# split the data into training and testing sets
+#split the data into training and testing sets
 train_data, test_data = split_data(data, split_ratio=0.8)
 
-# train the model on the training set
+#train the model on the training set
 tree.fit(train_data)
 
-# test the model on the testing set
+#test the model on the testing set
 accuracy = tree.score(test_data)
 print("Accuracy:", accuracy)
