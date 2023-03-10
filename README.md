@@ -8,3 +8,33 @@ The decision tree algorithm works by selecting the best feature to split the dat
 Decision trees have several advantages, including their interpretability, their ability to handle both categorical and numerical data, and their ability to handle missing values. However, they can be prone to overfitting if the tree is too deep, and they can be sensitive to the choice of splitting criteria.
 
 If you want to implement the decision tree algorithm in Python, you can use libraries like scikit-learn or pandas. These libraries provide a range of tools for building and evaluating decision tree models. There are also many tutorials and examples available online to help you get started.
+
+
+This repository contains a Python implementation of the Decision Tree algorithm for classification tasks. The algorithm is based on the ID3 algorithm and uses the entropy criterion for splitting the data.
+
+# Installation
+To use the Decision Tree algorithm, you will need to have Python 3 installed on your system. 
+You can install the required packages using pip:
+
+
+# Usage
+To use the Decision Tree algorithm, you can create an instance of the DecisionTree class and call its fit method to train the model on a dataset. 
+Here is an example usage:
+
+from decision_tree import DecisionTree
+
+# create an instance of the DecisionTree class
+tree = DecisionTree()
+
+# load data from a CSV file
+data = load_data("data.csv")
+
+# split the data into training and testing sets
+train_data, test_data = split_data(data, split_ratio=0.8)
+
+# train the model on the training set
+tree.fit(train_data)
+
+# test the model on the testing set
+accuracy = tree.score(test_data)
+print("Accuracy:", accuracy)
