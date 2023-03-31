@@ -33,9 +33,9 @@ data = load_data("data.csv")
 train_data, test_data = split_data(data, split_ratio=0.8)
 
 ## train the model on the training set
-``ruby
+```ruby
 tree.fit(train_data)
-``
+```
 
 ## test the model on the testing set
 accuracy = tree.score(test_data)
