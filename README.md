@@ -38,5 +38,7 @@ tree.fit(train_data)
 ```
 
 ## test the model on the testing set
+```ruby
 accuracy = tree.score(test_data)
 print("Accuracy:", accuracy)
+```
