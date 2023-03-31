@@ -32,8 +32,9 @@ tree = DecisionTree()
 data = load_data("data.csv")
 ```
 ## Split the data into training and testing sets
+```ruby
 train_data, test_data = split_data(data, split_ratio=0.8)
-
+```
 ## train the model on the training set
 ```ruby
 tree.fit(train_data)
