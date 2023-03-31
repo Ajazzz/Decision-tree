@@ -20,15 +20,17 @@ You can install the required packages using pip:
 ## Usage
 To use the Decision Tree algorithm, you can create an instance of the DecisionTree class and call its fit method to train the model on a dataset. 
 Here is an example usage:
-
+```ruby
 from decision_tree import DecisionTree
-
+```
 ## Create an instance of the DecisionTree class
+```ruby
 tree = DecisionTree()
-
+```
 ## load data from a CSV file
+```ruby
 data = load_data("data.csv")
-
+```
 ## Split the data into training and testing sets
 train_data, test_data = split_data(data, split_ratio=0.8)
 
