@@ -17,7 +17,7 @@ To use the Decision Tree algorithm, you will need to have Python 3 installed on 
 You can install the required packages using pip:
 
 
-# Usage
+### Usage
 To use the Decision Tree algorithm, you can create an instance of the DecisionTree class and call its fit method to train the model on a dataset. 
 Here is an example usage:
 
