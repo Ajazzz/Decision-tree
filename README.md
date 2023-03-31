@@ -12,7 +12,7 @@ If you want to implement the decision tree algorithm in Python, you can use libr
 
 This repository contains a Python implementation of the Decision Tree algorithm for classification tasks. The algorithm is based on the ID3 algorithm and uses the entropy criterion for splitting the data.
 
-# Installation
+### Installation
 To use the Decision Tree algorithm, you will need to have Python 3 installed on your system. 
 You can install the required packages using pip:
 
@@ -23,18 +23,18 @@ Here is an example usage:
 
 from decision_tree import DecisionTree
 
-# create an instance of the DecisionTree class
+### create an instance of the DecisionTree class
 tree = DecisionTree()
 
-# load data from a CSV file
+### load data from a CSV file
 data = load_data("data.csv")
 
-# split the data into training and testing sets
+### split the data into training and testing sets
 train_data, test_data = split_data(data, split_ratio=0.8)
 
-# train the model on the training set
+### train the model on the training set
 tree.fit(train_data)
 
-# test the model on the testing set
+### test the model on the testing set
 accuracy = tree.score(test_data)
 print("Accuracy:", accuracy)
