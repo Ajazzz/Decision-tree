@@ -14,7 +14,8 @@ This repository contains a Python implementation of the Decision Tree algorithm 
 
 ## Installation
 To use the Decision Tree algorithm, you will need to have Python 3 installed on your system. 
-You can install the required packages using 
+You can install the required packages using
+
 ``
 pip
 ``
